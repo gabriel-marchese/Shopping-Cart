@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.pesquisa {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(74, 190, 152);
+}
+
+form {
+  padding: 10px;
+}
+
+input {
+  background-color: rgb(74, 190, 152);
+  border: 1px solid black;
+  border-radius: 15px 0 0 15px;
+  height: 19px;
+  padding-left: 10px;
+}
+
+.btn-form {
+  background-color: rgb(74, 190, 152);
+  border: 1px solid black;
+  border-radius: 0 15px 15px 0;
+  font-weight: 800;
+  height: 21px;
+  width: 100px;
+}
+
+.btn-form:hover {
+  border: 1px solid white;
+  color: white;
+  transition: 3px;
+}
+
+h1 {
+  color: white;
+  font-family: Impact , Haettenschweiler , sans-serif;
+  padding: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.initialMessage {
+  color: rgb(36, 36, 36);
+  font-family: cursive;
+  margin: 10px;
+}
+
+.btn-cart {
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border: 1px solid  rgb(74, 190, 152);
+  display: block;
+  height: 200px;
+  margin: 20px 5px;
+  padding: 15px 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.product-item:hover {
+  scale: 1.01;
+  transition: 100ms;
+}
+
+.main {
+  display: flex;
+}

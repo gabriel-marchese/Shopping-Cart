@@ -1,0 +1,19 @@
+.btn-section {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.item {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 9px;
+  height: 19px;
+  margin: 1px;
+  width: 200px;
+}
+
+.item:hover {
+  scale: 1.05;
+  transition: 100ms;
+}
